@@ -1,0 +1,375 @@
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  padding-inline: 50px;
+}
+
+/* ========== Nav Bar Styles Start ================ */
+.nav-area {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: #06c167;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.6rem;
+}
+nav a {
+  text-decoration: none;
+  color: #1d1d1f;
+  margin-right: 25px;
+  font-weight: 500;
+}
+
+#home a {
+  color: #06c167;
+}
+/* ========== Nav Bar Styles End ================ */
+
+/* ========== Hero Style START ========= */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-main-content {
+  width: 533px;
+  padding: 50px 0;
+}
+.hero-main-content h1 {
+  color: #1d1d1f;
+  font-size: 7.5rem;
+  font-weight: 600;
+}
+.hero-main-content p {
+  color: #1d1d1f;
+  font-size: 1.6rem;
+  margin: 20px 0;
+}
+.hero-brand-logo img {
+  margin-right: 50px;
+}
+.hero-img {
+  position: relative;
+}
+.hero-sub-img1 {
+  position: absolute;
+  left: -100px;
+  top: 40%;
+}
+.hero-sub-img2 {
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+}
+.hero-sub-img3 {
+  position: absolute;
+  right: -10%;
+  top: 30%;
+}
+
+/* button */
+.btn {
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #06c167;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* ========== Hero Style END ========= */
+
+/* ============== Feature Section Style Start =================== */
+
+.feature {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 2px solid #28282c33;
+  border-bottom: 2px solid #28282c33;
+  padding: 50px;
+  margin: 50px 0;
+}
+.feature-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.featured-icon {
+  padding: 20px;
+  background-color: #40e49549;
+  border-radius: 5px;
+}
+.featured-icon i {
+  font-size: 3rem;
+}
+.featured-text h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.featured-text p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+/* ============== Feature Section Style End =================== */
+
+h4 {
+  font-size: 1.5rem;
+  color: #1d1d1f;
+  font-weight: 500;
+}
+h2 {
+  color: #1d1d1f;
+  font-size: 6rem;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+/* ----------========= Our Benefit Style Start */
+.Our-Benefit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.Benefit-content {
+  width: 537px;
+}
+.Benefit-content li {
+  list-style-type: none;
+}
+.benefit-list {
+  display: flex;
+  gap: 20px;
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+.benefit-list i {
+  font-size: 2rem;
+}
+.stars-fit-img {
+  width: 400px;
+  height: 480px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #70707011;
+}
+
+/* ----------========= Our Benefit Style End ===================*/
+
+/* ================== Our Stars Style Start =============== */
+.Our-Stars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.Our-Stars-content {
+  width: 537px;
+}
+.number {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 50px 0;
+}
+.num h3 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #06c167;
+  margin-bottom: 20px;
+}
+.num p {
+  font-size: 1.6rem;
+  color: #1d1d1f;
+}
+/* ================== Our Stars Style End=============== */
+
+/* ================ Variety Of Foods Style Start */
+.Variety-food-area {
+  text-align: center;
+}
+.variety-gallery {
+  display: flex;
+  padding: 50px 0;
+}
+.variety-sub-box1 {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.variety-sub-box2 {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.sub-text {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 30px;
+}
+.sub-para {
+  font-size: 1.6rem;
+  margin: 30px;
+}
+.sub-btn {
+  width: 148px;
+  height: 42px;
+  color: #06c167;
+  background-color: #e6f9f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 30px;
+}
+/* ================ Variety Of Foods Style End */
+
+/* ================= Most Popular Product style Start ================== */
+
+.product-card {
+  display: flex;
+  gap: 20px;
+  padding: 50px 0 100px 0;
+}
+.product-card-box {
+  text-align: center;
+  align-content: center;
+  width: 270px;
+  height: 445px;
+  border: 2px solid #06c167;
+}
+.product-card-box h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.product-card-box del {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #767675;
+}
+.product-card-box h5 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #06c167;
+}
+.now-btn {
+  width: 177px;
+  height: 57px;
+  color: #06c167;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* ================= Most Popular Product style End ================== */
+
+/* ================== Veggie Foods Style Start ============== */
+.Veggie-Foods {
+  background-image: url("../images/Rectangle8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  width: 1170px;
+  height: 459px;
+  text-align: center;
+  border-radius: 10px;
+}
+.Veggie-Foods h2 {
+  color: #fff;
+  margin: 0 50px;
+}
+/* ================== Veggie Foods Style End ============== */
+
+/* ========== Footer Styles Start ================ */
+.footer-area {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.footer-container {
+  display: flex;
+  margin: 50px 0;
+  gap: 50px;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 284px;
+  text-align: left;
+}
+.footer-logo p {
+  margin: 50px 0;
+}
+.footer-container .logo h3 {
+  font-size: 3rem;
+}
+.footer-icon img {
+  margin-right: 20px;
+}
+.footer-list h3 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+.footer-list li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #1d1d1f;
+  margin-bottom: 18px;
+  font-size: 1.6rem;
+  text-align: left;
+}
+.footer-subscribe h3 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+.footer-subscribe {
+  width: 338px;
+  text-align: left;
+}
+.footer-subscribe p {
+  font-size: 1.6rem;
+}
+.footer-subscribe form input {
+  width: 205px;
+  height: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: none;
+}
+.footer-subscribe form input::placeholder {
+  padding-left: 10px;
+}
+.footer-subscribe form button {
+  width: 118px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #06c167;
+  color: #fff;
+}
+/* ========== Footer Styles End ================ */

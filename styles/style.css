@@ -10,7 +10,8 @@
 }
 
 body {
-  padding-inline: 50px;
+  display: block;
+  margin: 0 80px;
 }
 
 /* ========== Nav Bar Styles Start ================ */
@@ -70,9 +71,11 @@ nav a {
 .hero-brand-logo img {
   margin-right: 50px;
 }
+/* parent div relative */
 .hero-img {
   position: relative;
 }
+/* sub img div absolute */
 .hero-sub-img1 {
   position: absolute;
   left: -100px;
@@ -251,8 +254,13 @@ h2 {
 
 .product-card {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   padding: 50px 0 100px 0;
+}
+.product-container {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
 }
 .product-card-box {
   text-align: center;
@@ -302,6 +310,11 @@ h2 {
 .Veggie-Foods h2 {
   color: #fff;
   margin: 0 50px;
+}
+.veggie-food-area {
+  padding: 50px;
+  display: flex;
+  align-items: center;
 }
 /* ================== Veggie Foods Style End ============== */
 
